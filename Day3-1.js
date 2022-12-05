@@ -34,7 +34,6 @@ function ruckSucksRearrangement(inputStr) {
       priority =
         INITIAL_PRIORITY_OFFSET + 1 + (ch.charCodeAt(0) - CAPITAL_A_PRIORITY);
     else priority = 1 + (ch.charCodeAt(0) - SMALL_A_PRIORITY);
-    console.log(`ItemCh:${ch} priority:${priority}`);
     return priority;
   }
 }
